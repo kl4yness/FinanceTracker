@@ -43,4 +43,7 @@
   .section {
     margin-bottom: 24px;
   }
+    .formSection, .listSection {
+    max-width: 350px;
+  }
 }
