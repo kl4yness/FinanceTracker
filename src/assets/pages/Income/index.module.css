@@ -437,4 +437,7 @@
     margin-left: 0;
     align-self: flex-end;
   }
+    .formSection, .listSection {
+    max-width: 350px;
+  }
 }
