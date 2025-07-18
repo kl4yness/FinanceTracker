@@ -17,6 +17,7 @@
 .filters {
   display: flex;
   gap: 12px;
+  flex-wrap:wrap;
   margin-block: 1rem;
 }
 
