@@ -60,7 +60,7 @@ export default function IncomeCards() {
 
       <StatsCard
         title="Текущий месяц"
-        value={`₽ ${totalMonthlyIncomes}`}
+        value={`₽ ${totalMonthlyIncomes.toLocaleString("en-US")}`}
         change={`Осталось ${remainingDays} дней`}
         changeType="neutral"
         icon={
@@ -105,7 +105,7 @@ export default function IncomeCards() {
 
       <StatsCard
         title="Средний доход"
-        value={`₽ ${average}`}
+        value={`₽ ${average.toLocaleString("en-US")}`}
         change="Средняя сумма поступлений"
         changeType="positive"
         icon={
