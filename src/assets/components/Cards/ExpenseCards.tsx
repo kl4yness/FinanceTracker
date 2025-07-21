@@ -52,7 +52,7 @@ export default function ExpenseCards() {
 
       <StatsCard
         title="Текущий месяц"
-        value={`₽ ${totalMonthlyExpenses}`}
+        value={`₽ ${totalMonthlyExpenses.toLocaleString("en-US")}`}
         change={`Осталось ${remainingDays} дней`}
         changeType="neutral"
         icon={
@@ -97,7 +97,7 @@ export default function ExpenseCards() {
 
       <StatsCard
         title="Средний чек"
-        value={`₽ ${average}`}
+        value={`₽ ${average.toLocaleString("en-US")}`}
         change="Средняя сумма трат"
         changeType="positive"
         icon={
